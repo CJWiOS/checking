@@ -22,6 +22,7 @@
     UIImage *two=[UIImage imageNamed:@"second"];
     NSLog(@"%d",(int)two.size.width);
     UIView *ShoeView=[[UIView alloc]initWithFrame:CGRectMake(90, 0, 0, 0)];
+    NSLog(@"ghjkl;");
     [self.view addSubview:ShoeView];
 }
 
